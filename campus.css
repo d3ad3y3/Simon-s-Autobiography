@@ -3,7 +3,7 @@
     margin: 0;
 }
 .main {
-    background-color: lightblue;
+    background-image: url(images/bg11.jpg);
     background-size: cover;
     height: 100vh;
     
