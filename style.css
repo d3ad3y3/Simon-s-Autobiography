@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background: url(images/indexb.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: black;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     padding: 6px 13px;
+     font-family: sans-serif;
+     cursor: pointer;
+    }
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+.main .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    
+}
+.center .buttons{
+    margin: 35px 280px;
+    padding-left: 10%;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: orchid;
+    background: white;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+   
+    transition: .3s;
+}
+.buttons button:hover{
+    background: red;
+}
